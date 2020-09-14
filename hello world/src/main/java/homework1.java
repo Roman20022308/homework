@@ -24,7 +24,7 @@ public class homework1 {
     public static void table(){
         for(int i=1;i<11;i++){
             for(int u=1;u<11;u++){
-                System.out.print(i*u+" ");
+                System.out.print(i*u+"\t");
                 if(u==10) {
                     System.out.print("\n");
                 }
@@ -131,10 +131,11 @@ public class homework1 {
     //правильный ответ - 1б
     public static int[] sort(int[] array){
         int i=0;
+        int t;
         while(i<array.length-1)
         {if(array[i]>array[i+1])
         {
-            int t=array[i];
+            t=array[i];
             array[i]=array[i+1];
             array[i+1]=t;
             i=0;
