@@ -1,0 +1,4 @@
+interface MyfileOutputStreamInteface
+{
+    void close();
+}
